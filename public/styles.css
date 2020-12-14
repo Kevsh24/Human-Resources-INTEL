@@ -1,0 +1,87 @@
+/* Generals */
+
+body {
+    background: #bdc3c7;
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    margin-bottom: 100px;
+    padding-bottom: 150px;
+}
+
+/*Navigation*/
+
+.menu {
+    margin-bottom: 5%;
+    align-self: flex-start;
+    width: 100%;
+}
+
+li a {
+    margin-left: 20px;
+}
+
+.container img {
+    margin: auto 2%;
+    width: 8%;
+}
+
+/* Main */
+
+#main {
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+}
+
+#left {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+#right {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+#employee {
+    margin-bottom: 2%;
+}
+
+/* Footer*/
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: white;
+}
+
+/* Animations */
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fast {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+/*# sourceMappingURL=styles.css.map*/
